@@ -25,7 +25,11 @@
 }
 body {
   color: #c2c2c2;
-  background: #151515;
+  background:url(https://firebasestorage.googleapis.com/v0/b/laelynblog.appspot.com/o/oldtown_japan_night02.png?alt=media&token=18b55658-7441-442b-abc8-497c5e75a4a9);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
 }
 
 html, body ,div, h1, h2, h3, h4, h5, h6, p, ul, li, ol, dl, dt, dd, form, input, a, article, aside, details, figcaption, figure,
@@ -157,6 +161,7 @@ code,pre,input { font-family: "Microsoft YaHei", sans-serif; }
   margin: 40px auto;
   overflow: hidden;
   background: rgba(0,0,0,0.95);
+  opacity: 0.9;
 }
 .main-con .con-wrap {
   margin: 40px;
